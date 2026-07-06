@@ -10,14 +10,14 @@ Designed and implemented Slack-based file audit and gateway patterns.
 
 ## What Was Built
 
-- event-driven file inspection flow
-- internal file download and parsing pipeline
-- support for common office/document formats and OCR-ready extraction
-- policy scoring and severity classification
-- admin review cards
-- user DM notifications
-- pass/block/review workflow patterns
-- persistent audit state
+- Event-driven file inspection flow
+- Internal file download and parsing pipeline
+- Support for common office/document formats and OCR-ready extraction
+- Policy scoring and severity classification
+- Admin review cards
+- User DM notifications
+- Pass/block/review workflow patterns
+- Persistent audit state
 
 ## Architecture
 
@@ -33,10 +33,10 @@ File submitted or shared
 
 ## Engineering Highlights
 
-- avoided external AI APIs for sensitive content scanning
-- kept sensitive text out of Slack messages and logs
-- separated post-detection audit mode from pre-share gateway mode
-- documented operational limitations around platform permissions
+- Avoided external AI APIs for sensitive content scanning
+- Kept sensitive text out of Slack messages and logs
+- Separated post-detection audit mode from pre-share gateway mode
+- Documented operational limitations around platform permissions
 
 ## Public-Safe Outcome
 
@@ -44,8 +44,8 @@ This project shows security-conscious automation and sound judgment about data h
 
 ## What Is Intentionally Omitted
 
-- exact detection rule corpus
-- private sample documents
-- channel/user identifiers
-- token and permission configuration details
+- Exact detection rule corpus
+- Private sample documents
+- Channel/user identifiers
+- Token and permission configuration details
 

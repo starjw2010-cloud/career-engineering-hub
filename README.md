@@ -1,10 +1,12 @@
 # Engineering Work Portfolio
 
-This repository is a public-safe career portfolio hub. It summarizes selected engineering work across Slack apps, internal workflow systems, RAG/MCP prototypes, data safety automation, and enterprise demo portals without exposing customer data, private prompts, tokens, Slack workspace identifiers, or copyable internal playbooks.
+I build internal tools end to end — Slack apps, workflow automation, RAG/MCP retrieval, and internal portals — and take each one from an operational problem to a deployed, documented system.
+
+This is a public-safe portfolio hub. It summarizes selected work without exposing customer data, private prompts, tokens, Slack identifiers, or copyable internal playbooks.
 
 ## Positioning
 
-I build practical internal productivity systems that combine:
+In practice, that work combines:
 
 - Slack app workflows and App Home UX
 - Approval, request, and case management flows

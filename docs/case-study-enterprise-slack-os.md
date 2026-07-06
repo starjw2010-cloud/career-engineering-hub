@@ -14,10 +14,10 @@ Designed and built the workflow model, Slack app interactions, data structures, 
 - Modal-based request intake
 - Conditional routing and approval state handling
 - DM confirmations and channel-thread status updates
-- a standardized family of approval workflow types sharing one intake → approval → notification → ledger pattern
+- A standardized family of approval workflows sharing one intake → approval → notification → ledger pattern
 - Slack List-style processing ledgers as the system of record for each request
 - Canvas/List-oriented operating content for realistic team workflows
-- a reusable, checklist-driven delivery method that made each new workflow app faster to ship
+- A reusable, checklist-driven delivery method that made each new workflow app faster to ship
 
 ## Architecture
 
@@ -34,11 +34,11 @@ User action
 
 ## Engineering Highlights
 
-- treated Slack as a workflow surface, not just a message destination
-- ensured approvals resolve against the real requester's identity, with correct routing and audit attribution
-- designed announcement and status flows that work across a multi-workspace environment
-- added preflight checks for manifests, triggers, scopes, and deployment state to catch config errors before release
-- kept deployment handoff separate from app logic so operators can run the system independently
+- Treated Slack as a workflow surface, not just a message destination
+- Ensured approvals resolve against the real requester's identity, with correct routing and audit attribution
+- Designed announcement and status flows that work across a multi-workspace environment
+- Added preflight checks for manifests, triggers, scopes, and deployment state to catch config errors before release
+- Kept deployment handoff separate from app logic so operators can run the system independently
 
 ## Public-Safe Outcome
 
@@ -46,7 +46,7 @@ This project shows I can turn scattered, chat-based processes into a coherent Sl
 
 ## What Is Intentionally Omitted
 
-- exact workspace IDs, channel IDs, trigger IDs, user IDs, list IDs, and app IDs
-- internal seed files and workflow trigger definitions
-- private prompts and detailed domain-specific operating playbooks
+- Exact workspace IDs, channel IDs, trigger IDs, user IDs, list IDs, and app IDs
+- Internal seed files and workflow trigger definitions
+- Private prompts and detailed domain-specific operating playbooks
 

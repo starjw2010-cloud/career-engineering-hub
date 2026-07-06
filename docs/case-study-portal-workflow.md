@@ -10,13 +10,13 @@ Built the portal prototype, data loading strategy, UI templates, deployment conf
 
 ## What Was Built
 
-- server-rendered internal portal with login/session simulation
-- dense enterprise-style dashboard
-- employee directory and profile pages
-- approvals and document views
-- vendor and risk dashboards
+- Server-rendered internal portal with login/session simulation
+- Dense enterprise-style dashboard
+- Employee directory and profile pages
+- Approvals and document views
+- Vendor and risk dashboards
 - Slack deep-link placeholders
-- bundled data snapshot for public deployment
+- Bundled data snapshot for public deployment
 - Docker/Railway deployment configuration
 
 ## Architecture
@@ -32,10 +32,10 @@ Shared demo data
 
 ## Engineering Highlights
 
-- intentionally avoided marketing-style UI in favor of real groupware density
-- reused the same data concepts across portal, workflow, and retrieval layers
-- shipped with Dockerfile, deployment config, and route health checks
-- debugged deployment-specific asset loading issues after publishing
+- Intentionally avoided marketing-style UI in favor of real groupware density
+- Reused the same data concepts across portal, workflow, and retrieval layers
+- Shipped with Dockerfile, deployment config, and route health checks
+- Debugged deployment-specific asset loading issues after publishing
 
 ## Public-Safe Outcome
 
@@ -43,8 +43,8 @@ This project shows end-to-end full-stack delivery in one person's hands: data mo
 
 ## What Is Intentionally Omitted
 
-- live private identifiers
-- raw employee/persona data
-- screenshots before redaction
-- exact demo organization taxonomy
+- Live private identifiers
+- Raw employee/persona data
+- Screenshots before redaction
+- Exact demo organization taxonomy
 
