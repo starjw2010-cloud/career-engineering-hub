@@ -1,0 +1,24 @@
+.DS_Store
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.log
+node_modules/
+.venv/
+__pycache__/
+.private/
+private/
+secrets/
+credentials/
+tokens/
+raw_exports/
+screenshots/raw/
+*.key
+*.pem
+
+# Internal authoring/process notes — keep private, do not publish
+docs/codex-claude-workflow.md
+docs/claude-review-prompt.md
+
